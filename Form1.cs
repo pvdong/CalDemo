@@ -28,21 +28,12 @@ namespace CalDemo
     }
     private void btnCong_Click( object sender, EventArgs e)
     {
-<<<<<<< HEAD
-        if(txtA.Text 1 != "" && txtB.Text != "")
-            {
-                int a = double.Parse(txtA.Text);
-                double b = double.Parse(txtB.Text);
-                double c = a + b;
-            }
-        
-}
-=======
         if (txtA.Text != "")
             {
             int a = double.Parse(txtA.Text);
             double b = double.Parse(txtB.Text);
             double c = a + b;
             }
->>>>>>> Feature-add
+    }
+
 }
